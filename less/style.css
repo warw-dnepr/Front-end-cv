@@ -28,14 +28,12 @@ body {
   left: 50%;
   margin-left: -400px;
   margin-top: -300px;
-  width: 800px;
-  height: 600px;
   z-index: 2;
   display: none;
   cursor: pointer;
 }
 .wrap .block-for-img img {
-  width: 800px;
+  max-width: 800px;
   display: none;
   box-shadow: 0 0 200px 200px #191a1c;
 }
