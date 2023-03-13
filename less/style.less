@@ -1,0 +1,337 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+@font-face {
+   font-family: 'DniproCityReg';
+   src: url('../fonts/DniproCity-Regular.eot');
+   src: local('../fonts/DniproCity Regular'), local('../fonts/DniproCity-Regular'), url('../fonts/DniproCity-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/DniproCity-Regular.woff') format('woff'), url('../fonts/DniproCity-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+ }
+ a{
+   text-decoration: none;
+ }
+ body{
+   font-family: 'DniproCityReg';
+}
+.wrap{
+   max-width: 800px;
+   margin: auto;
+   box-shadow: 0 0 10px 10px #ccc;
+   position: relative;
+   .block-for-img{
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-left: -400px;
+      margin-top: -300px;
+      width: 800px;
+      height: 600px;
+      z-index: 2;
+      display: none;
+      cursor: pointer;
+      img{
+         width: 800px;
+         display: none;
+         box-shadow:0 0 200px 200px #191a1c;
+      }
+   }
+}
+header{
+   max-width: 800px;
+   height: 300px;
+   position: relative;
+   display: flex;
+   color: aliceblue;
+   z-index: 1;
+   .header-img{
+      border-radius: 0 0 0 50%;
+      background-color: #9ecb3c;
+      padding: 30px;
+      width: 32.4%;
+
+      img{
+         width: 200px;
+         border-radius: 48%;
+         margin-top: 24px;
+         margin-left: 16px;
+      }
+   }
+   .header-name{
+      background-color: #9ecb3c;
+      padding: 75px;
+      width: 48.3%;
+      h1{
+         display: flex;
+         flex-direction: column;
+      }
+   }
+   .header-contact p:nth-child(odd){
+      margin-top: 5px;
+   }
+   .header-contact{
+      background-color: #9ecb3c;
+      padding: 90px 10px 10px 10px;
+      width: 33.3%;
+      a{
+         color: aliceblue;
+      }
+   }
+   .header-block-up{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      background-color: #fff;
+      height: 40px;
+      width: 476px;
+   }
+   .header-block-up-1{
+      position: absolute;
+      top: 0px;
+      right: 474px;
+      background-color: #fff;
+      height: 40px;
+      width: 121px;
+      border-radius: 0 0 0 99%;
+   }
+   .block-for-gradient{
+      width: 2px;
+      margin-top: 23px;
+      background: rgb(255,255,255);
+      background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(158,203,60,1) 59%);}
+   }
+   /////////////main
+   main{
+      position: relative;
+      display: flex;
+      .main-block-up{
+         position: absolute;
+         top: -44px;
+         left: 0px;
+         background-color: #fff;
+         height: 80px;
+         width: 142px;
+         border-radius: 0% 0% 0% 100%;
+   
+      }
+      .main-block-up-1{
+         position: absolute;
+         top: -44px;
+         left: 133px;
+         background-color: #fff;
+         height: 80px;
+         width: 189px;
+      }
+      .sitebar{
+         width: 40%;
+         padding: 120px 20px 10px 20px;
+         background-color: #191a1c;
+         margin-top: -44px;
+         color: rgb(190, 193, 197);
+         h3{
+            margin: 10px 0;
+            color: aliceblue;
+            font-weight: normal;
+         }
+         p{
+            margin-top: 5px;
+            font-size: 14px;
+         }
+         .pro-skils,.pro-language{
+            .skill-progress{
+               width: 120px;
+            }
+            ul,li{
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               margin-bottom: 2px;
+               .skils-html-1{
+                  display: block;
+                  width: 90%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-html-2{
+                  display: block;
+                  width: 10%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+               .skils-JavaScript-1{
+                  display: block;
+                  width: 60%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-JavaScript-2{
+                  display: block;
+                  width: 40%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+               .skils-Bootstrap-1{
+                  display: block;
+                  width: 70%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-Bootstrap-2{
+                  display: block;
+                  width: 30%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+               .skils-PhotoShop-1{
+                  display: block;
+                  width: 40%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-PhotoShop-2{
+                  display: block;
+                  width: 60%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+               .skils-PHP-1{
+                  display: block;
+                  width: 20%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-PHP-2{
+                  display: block;
+                  width: 80%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+               .skils-English-1{
+                  display: block;
+                  width: 30%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-English-2{
+                  display: block;
+                  width: 70%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+               .skils-Ukrainian-1{
+                  display: block;
+                  width: 100%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-Ukrainian-2{
+                  display: block;
+                  width: 0%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+               .skils-Polish-1{
+                  display: block;
+                  width: 80%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-Polish-2{
+                  display: block;
+                  width: 20%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+               .skils-Russian-1{
+                  display: block;
+                  width: 100%;
+                  height: 2px;
+                  background-color: #9ecb3c;
+               }
+               .skils-Russian-2{
+                  display: block;
+                  width: 0%;
+                  height: 2px;
+                  background-color: aliceblue;
+               }
+            }
+         }
+      }
+      .main-info{
+         width: 60%;
+         padding: 75px 10px 10px 10px; 
+         h3{
+            margin: 10px 0;
+         }
+         p{
+            margin-bottom: 10px; 
+         }
+         img{
+               width: 100px;
+         }
+         .education{
+            img{
+               cursor: pointer;
+            }
+         }
+      }
+   }
+
+
+   //////////@media
+   @media screen and (max-width:800px) {
+      .header-block-up,.header-block-up-1,.block-for-gradient,.block-for-gradient,.main-block-up,.main-block-up-1{
+         display: none;
+      }  
+      header {
+         background-color: #9ecb3c;
+      }
+      main .sitebar {
+         padding: 20px 20px 10px 20px;
+         margin-top: 0;
+      }
+      header .header-img {
+         border-radius: 0 0 0 0;
+         width: fit-content;
+         padding: 30px 0;
+      }
+      header .header-name {
+         padding: 75px 10px;
+         width: fit-content;
+     }
+     header .header-contact {
+      width: fit-content;
+     }
+     main .sitebar .pro-skils ul,main .sitebar .pro-language ul{
+      display: block;
+     }
+   }
+   @media screen and (max-width:521px) {
+      header{
+         display: block;
+         height: fit-content;
+      }
+      main .main-info {
+         padding: 20px 10px;
+      }
+      header .header-img {
+         margin: auto;
+         padding: 0;
+      }
+      header .header-name {
+         width: 100%;
+         text-align: center;
+         padding: 0px;
+      }
+      header .header-contact {
+         padding: 10px;
+         width: 100%;
+         text-align: center;
+     }
+     main .sitebar .pro-skils .skill-progress,main .sitebar .pro-language .skill-progress{
+      width: 100px;
+      margin: 5px 0;
+     }
+   }

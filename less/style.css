@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'DniproCityReg';
+  src: url('../fonts/DniproCity-Regular.eot');
+  src: local('../fonts/DniproCity Regular'), local('../fonts/DniproCity-Regular'), url('../fonts/DniproCity-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/DniproCity-Regular.woff') format('woff'), url('../fonts/DniproCity-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'DniproCityReg';
+}
+.wrap {
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 10px 10px #ccc;
+  position: relative;
+}
+.wrap .block-for-img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -300px;
+  width: 800px;
+  height: 600px;
+  z-index: 2;
+  display: none;
+  cursor: pointer;
+}
+.wrap .block-for-img img {
+  width: 800px;
+  display: none;
+  box-shadow: 0 0 200px 200px #191a1c;
+}
+header {
+  max-width: 800px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  color: aliceblue;
+  z-index: 1;
+}
+header .header-img {
+  border-radius: 0 0 0 50%;
+  background-color: #9ecb3c;
+  padding: 30px;
+  width: 32.4%;
+}
+header .header-img img {
+  width: 200px;
+  border-radius: 48%;
+  margin-top: 24px;
+  margin-left: 16px;
+}
+header .header-name {
+  background-color: #9ecb3c;
+  padding: 75px;
+  width: 48.3%;
+}
+header .header-name h1 {
+  display: flex;
+  flex-direction: column;
+}
+header .header-contact p:nth-child(odd) {
+  margin-top: 5px;
+}
+header .header-contact {
+  background-color: #9ecb3c;
+  padding: 90px 10px 10px 10px;
+  width: 33.3%;
+}
+header .header-contact a {
+  color: aliceblue;
+}
+header .header-block-up {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #fff;
+  height: 40px;
+  width: 476px;
+}
+header .header-block-up-1 {
+  position: absolute;
+  top: 0px;
+  right: 474px;
+  background-color: #fff;
+  height: 40px;
+  width: 121px;
+  border-radius: 0 0 0 99%;
+}
+header .block-for-gradient {
+  width: 2px;
+  margin-top: 23px;
+  background: #ffffff;
+  background: radial-gradient(circle, #ffffff 50%, #9ecb3c 59%);
+}
+main {
+  position: relative;
+  display: flex;
+}
+main .main-block-up {
+  position: absolute;
+  top: -44px;
+  left: 0px;
+  background-color: #fff;
+  height: 80px;
+  width: 142px;
+  border-radius: 0% 0% 0% 100%;
+}
+main .main-block-up-1 {
+  position: absolute;
+  top: -44px;
+  left: 133px;
+  background-color: #fff;
+  height: 80px;
+  width: 189px;
+}
+main .sitebar {
+  width: 40%;
+  padding: 120px 20px 10px 20px;
+  background-color: #191a1c;
+  margin-top: -44px;
+  color: #bec1c5;
+}
+main .sitebar h3 {
+  margin: 10px 0;
+  color: aliceblue;
+  font-weight: normal;
+}
+main .sitebar p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+main .sitebar .pro-skils .skill-progress,
+main .sitebar .pro-language .skill-progress {
+  width: 120px;
+}
+main .sitebar .pro-skils ul,
+main .sitebar .pro-language ul,
+main .sitebar .pro-skils li,
+main .sitebar .pro-language li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+main .sitebar .pro-skils ul .skils-html-1,
+main .sitebar .pro-language ul .skils-html-1,
+main .sitebar .pro-skils li .skils-html-1,
+main .sitebar .pro-language li .skils-html-1 {
+  display: block;
+  width: 90%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-html-2,
+main .sitebar .pro-language ul .skils-html-2,
+main .sitebar .pro-skils li .skils-html-2,
+main .sitebar .pro-language li .skils-html-2 {
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-JavaScript-1,
+main .sitebar .pro-language ul .skils-JavaScript-1,
+main .sitebar .pro-skils li .skils-JavaScript-1,
+main .sitebar .pro-language li .skils-JavaScript-1 {
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-JavaScript-2,
+main .sitebar .pro-language ul .skils-JavaScript-2,
+main .sitebar .pro-skils li .skils-JavaScript-2,
+main .sitebar .pro-language li .skils-JavaScript-2 {
+  display: block;
+  width: 40%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-Bootstrap-1,
+main .sitebar .pro-language ul .skils-Bootstrap-1,
+main .sitebar .pro-skils li .skils-Bootstrap-1,
+main .sitebar .pro-language li .skils-Bootstrap-1 {
+  display: block;
+  width: 70%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-Bootstrap-2,
+main .sitebar .pro-language ul .skils-Bootstrap-2,
+main .sitebar .pro-skils li .skils-Bootstrap-2,
+main .sitebar .pro-language li .skils-Bootstrap-2 {
+  display: block;
+  width: 30%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-PhotoShop-1,
+main .sitebar .pro-language ul .skils-PhotoShop-1,
+main .sitebar .pro-skils li .skils-PhotoShop-1,
+main .sitebar .pro-language li .skils-PhotoShop-1 {
+  display: block;
+  width: 40%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-PhotoShop-2,
+main .sitebar .pro-language ul .skils-PhotoShop-2,
+main .sitebar .pro-skils li .skils-PhotoShop-2,
+main .sitebar .pro-language li .skils-PhotoShop-2 {
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-PHP-1,
+main .sitebar .pro-language ul .skils-PHP-1,
+main .sitebar .pro-skils li .skils-PHP-1,
+main .sitebar .pro-language li .skils-PHP-1 {
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-PHP-2,
+main .sitebar .pro-language ul .skils-PHP-2,
+main .sitebar .pro-skils li .skils-PHP-2,
+main .sitebar .pro-language li .skils-PHP-2 {
+  display: block;
+  width: 80%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-English-1,
+main .sitebar .pro-language ul .skils-English-1,
+main .sitebar .pro-skils li .skils-English-1,
+main .sitebar .pro-language li .skils-English-1 {
+  display: block;
+  width: 30%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-English-2,
+main .sitebar .pro-language ul .skils-English-2,
+main .sitebar .pro-skils li .skils-English-2,
+main .sitebar .pro-language li .skils-English-2 {
+  display: block;
+  width: 70%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-Ukrainian-1,
+main .sitebar .pro-language ul .skils-Ukrainian-1,
+main .sitebar .pro-skils li .skils-Ukrainian-1,
+main .sitebar .pro-language li .skils-Ukrainian-1 {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-Ukrainian-2,
+main .sitebar .pro-language ul .skils-Ukrainian-2,
+main .sitebar .pro-skils li .skils-Ukrainian-2,
+main .sitebar .pro-language li .skils-Ukrainian-2 {
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-Polish-1,
+main .sitebar .pro-language ul .skils-Polish-1,
+main .sitebar .pro-skils li .skils-Polish-1,
+main .sitebar .pro-language li .skils-Polish-1 {
+  display: block;
+  width: 80%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-Polish-2,
+main .sitebar .pro-language ul .skils-Polish-2,
+main .sitebar .pro-skils li .skils-Polish-2,
+main .sitebar .pro-language li .skils-Polish-2 {
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-Russian-1,
+main .sitebar .pro-language ul .skils-Russian-1,
+main .sitebar .pro-skils li .skils-Russian-1,
+main .sitebar .pro-language li .skils-Russian-1 {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-Russian-2,
+main .sitebar .pro-language ul .skils-Russian-2,
+main .sitebar .pro-skils li .skils-Russian-2,
+main .sitebar .pro-language li .skils-Russian-2 {
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .main-info {
+  width: 60%;
+  padding: 75px 10px 10px 10px;
+}
+main .main-info h3 {
+  margin: 10px 0;
+}
+main .main-info p {
+  margin-bottom: 10px;
+}
+main .main-info img {
+  width: 100px;
+}
+main .main-info .education img {
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .header-block-up,
+  .header-block-up-1,
+  .block-for-gradient,
+  .block-for-gradient,
+  .main-block-up,
+  .main-block-up-1 {
+    display: none;
+  }
+  header {
+    background-color: #9ecb3c;
+  }
+  main .sitebar {
+    padding: 20px 20px 10px 20px;
+    margin-top: 0;
+  }
+  header .header-img {
+    border-radius: 0 0 0 0;
+    width: fit-content;
+    padding: 30px 0;
+  }
+  header .header-name {
+    padding: 75px 10px;
+    width: fit-content;
+  }
+  header .header-contact {
+    width: fit-content;
+  }
+  main .sitebar .pro-skils ul,
+  main .sitebar .pro-language ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 521px) {
+  header {
+    display: block;
+    height: fit-content;
+  }
+  main .main-info {
+    padding: 20px 10px;
+  }
+  header .header-img {
+    margin: auto;
+    padding: 0;
+  }
+  header .header-name {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+  }
+  header .header-contact {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  main .sitebar .pro-skils .skill-progress,
+  main .sitebar .pro-language .skill-progress {
+    width: 100px;
+    margin: 5px 0;
+  }
+}
