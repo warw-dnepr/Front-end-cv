@@ -173,7 +173,7 @@ main .sitebar .pro-language ul .skils-JavaScript-1,
 main .sitebar .pro-skils li .skils-JavaScript-1,
 main .sitebar .pro-language li .skils-JavaScript-1 {
   display: block;
-  width: 60%;
+  width: 70%;
   height: 2px;
   background-color: #9ecb3c;
 }
@@ -182,7 +182,7 @@ main .sitebar .pro-language ul .skils-JavaScript-2,
 main .sitebar .pro-skils li .skils-JavaScript-2,
 main .sitebar .pro-language li .skils-JavaScript-2 {
   display: block;
-  width: 40%;
+  width: 30%;
   height: 2px;
   background-color: aliceblue;
 }
