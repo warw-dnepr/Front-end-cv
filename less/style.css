@@ -155,7 +155,7 @@ main .sitebar .pro-language ul .skils-html-1,
 main .sitebar .pro-skils li .skils-html-1,
 main .sitebar .pro-language li .skils-html-1 {
   display: block;
-  width: 90%;
+  width: 100%;
   height: 2px;
   background-color: #9ecb3c;
 }
@@ -164,7 +164,7 @@ main .sitebar .pro-language ul .skils-html-2,
 main .sitebar .pro-skils li .skils-html-2,
 main .sitebar .pro-language li .skils-html-2 {
   display: block;
-  width: 10%;
+  width: 0;
   height: 2px;
   background-color: aliceblue;
 }
