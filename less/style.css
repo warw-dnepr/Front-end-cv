@@ -60,11 +60,14 @@ header .header-img img {
 header .header-name {
   background-color: #9ecb3c;
   padding: 75px;
-  width: 48.3%;
+  width: 73.3%;
 }
 header .header-name h1 {
   display: flex;
   flex-direction: column;
+}
+header .header-name p {
+  font-size: 20px;
 }
 header .header-contact p:nth-child(odd) {
   margin-top: 5px;
@@ -76,6 +79,23 @@ header .header-contact {
 }
 header .header-contact a {
   color: aliceblue;
+}
+header .header-contact .header-links {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+header .header-contact .header-links a {
+  font-size: 30px;
+  margin-right: 9px;
+  color: darkgreen;
+}
+header .header-contact .header-links a:first-child {
+  color: darkblue;
+}
+header .header-contact .header-links a:last-child {
+  color: blue;
 }
 header .header-block-up {
   position: absolute;
@@ -255,6 +275,24 @@ main .sitebar .pro-skils li .skils-English-2,
 main .sitebar .pro-language li .skils-English-2 {
   display: block;
   width: 70%;
+  height: 2px;
+  background-color: aliceblue;
+}
+main .sitebar .pro-skils ul .skils-Spanish-1,
+main .sitebar .pro-language ul .skils-Spanish-1,
+main .sitebar .pro-skils li .skils-Spanish-1,
+main .sitebar .pro-language li .skils-Spanish-1 {
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #9ecb3c;
+}
+main .sitebar .pro-skils ul .skils-Spanish-2,
+main .sitebar .pro-language ul .skils-Spanish-2,
+main .sitebar .pro-skils li .skils-Spanish-2,
+main .sitebar .pro-language li .skils-Spanish-2 {
+  display: block;
+  width: 80%;
   height: 2px;
   background-color: aliceblue;
 }
