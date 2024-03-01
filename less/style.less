@@ -46,7 +46,7 @@ header{
    z-index: 1;
    .header-img{
       border-radius: 0 0 0 50%;
-      background-color: #9ecb3c;
+      background-color: #454642;
       padding: 30px;
       width: 32.4%;
 
@@ -58,7 +58,7 @@ header{
       }
    }
    .header-name{
-      background-color: #9ecb3c;
+      background-color: #454642;
       padding: 75px;
       width: 73.3%;
       h1{
@@ -74,7 +74,7 @@ header{
       margin-top: 5px;
    }
    .header-contact{
-      background-color: #9ecb3c;
+      background-color: #454642;
       padding: 90px 10px 10px 10px;
       width: 33.3%;
       a{
@@ -89,13 +89,13 @@ header{
       .header-links a{
          font-size: 30px;
          margin-right: 9px;
-         color: darkgreen;
+         color: rgb(122, 167, 33);
       }
       .header-links a:first-child{
-         color: darkblue;
+         color: steelblue;
       }
       .header-links a:last-child{
-         color: blue;
+         color: rgb(59, 59, 255);
       }
 
       
@@ -121,7 +121,7 @@ header{
       width: 2px;
       margin-top: 23px;
       background: rgb(255,255,255);
-      background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(158,203,60,1) 59%);}
+      background: radial-gradient(circle, rgba(255,255,255,1) 50%, #454642 59%);}
    }
    /////////////main
    main{
@@ -161,134 +161,21 @@ header{
             font-size: 14px;
          }
          .pro-skils,.pro-language{
+            p{
+               margin-bottom: 10px;
+            }
             .skill-progress{
                width: 120px;
+               span{
+                  color: steelblue ;
+               }
             }
             ul,li{
                display: flex;
                align-items: center;
                justify-content: space-between;
                margin-bottom: 2px;
-               .skils-html-1{
-                  display: block;
-                  width: 100%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-html-2{
-                  display: block;
-                  width: 0;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-JavaScript-1{
-                  display: block;
-                  width: 70%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-JavaScript-2{
-                  display: block;
-                  width: 30%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-Bootstrap-1{
-                  display: block;
-                  width: 70%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-Bootstrap-2{
-                  display: block;
-                  width: 30%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-PhotoShop-1{
-                  display: block;
-                  width: 40%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-PhotoShop-2{
-                  display: block;
-                  width: 60%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-PHP-1{
-                  display: block;
-                  width: 20%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-PHP-2{
-                  display: block;
-                  width: 80%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-English-1{
-                  display: block;
-                  width: 30%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-English-2{
-                  display: block;
-                  width: 70%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-Spanish-1{
-                  display: block;
-                  width: 20%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-Spanish-2{
-                  display: block;
-                  width: 80%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-Ukrainian-1{
-                  display: block;
-                  width: 100%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-Ukrainian-2{
-                  display: block;
-                  width: 0%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-Polish-1{
-                  display: block;
-                  width: 80%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-Polish-2{
-                  display: block;
-                  width: 20%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
-               .skils-Russian-1{
-                  display: block;
-                  width: 100%;
-                  height: 2px;
-                  background-color: #9ecb3c;
-               }
-               .skils-Russian-2{
-                  display: block;
-                  width: 0%;
-                  height: 2px;
-                  background-color: aliceblue;
-               }
+               color: steelblue;
             }
          }
       }
@@ -319,7 +206,7 @@ header{
          display: none;
       }  
       header {
-         background-color: #9ecb3c;
+         background-color: #454642;
       }
       main .sitebar {
          padding: 20px 20px 10px 20px;
@@ -342,6 +229,10 @@ header{
      }
    }
    @media screen and (max-width:521px) {
+      .header-links{
+         justify-content: center;
+         
+      }
       header{
          display: block;
          height: fit-content;
